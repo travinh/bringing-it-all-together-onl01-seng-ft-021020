@@ -83,7 +83,7 @@ class Dog
     
   end
   
-  def find_or_create_by(hash)
+  def find_or_create_by(name:, breed:)
     sql = <
   end
   
