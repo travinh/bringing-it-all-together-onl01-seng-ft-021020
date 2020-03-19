@@ -76,7 +76,7 @@ class Dog
     Dog.new_from_db(result)
   end
   
-  def create(hash)
+  def self.create(hash)
     new_dog = Dog.new(hash)
     new_dog.save 
     new_dog
